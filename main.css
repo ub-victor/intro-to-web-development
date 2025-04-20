@@ -91,7 +91,7 @@ nav li:hover::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 2rem;
+  padding: 0 4rem;
   color: #fff;
   position: relative;
 }
