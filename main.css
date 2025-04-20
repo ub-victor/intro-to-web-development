@@ -84,6 +84,17 @@ nav li:hover::after {
 /*Hero section*/
 
 .hero-section{
-  background-image: url(images/hero.png);
+  .hero-section {
+    background-image: url(images/hero.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    color: #fff;
+    position: relative;
+  }
 }
 
