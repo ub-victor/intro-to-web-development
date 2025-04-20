@@ -174,11 +174,11 @@ nav li:hover::after {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
 }
 
-.Coding-journey-section .intro:hover,
-.Coding-journey-section .react:hover,
-.Coding-journey-section div > div:last-child:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+.Coding-journey-section img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 1rem;
 }
 
 .Coding-journey-section h3 {
@@ -193,7 +193,14 @@ nav li:hover::after {
   color: #555;
 }
 
-
-
+/* Divider line */
+.Coding-journey-section .intro::after,
+.Coding-journey-section .react::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #eee;
+  margin: 1.5rem 0;
+}
 
 /*  Footer section */
