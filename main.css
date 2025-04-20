@@ -138,6 +138,13 @@ nav li:hover::after {
 /* Responsive Design */
 
 /*coding journey section*/
+.Coding-journey-section {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+
 
 /* Responsive Design */
 
