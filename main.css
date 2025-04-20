@@ -137,112 +137,113 @@ nav li:hover::after {
 
 /* Responsive Design */
 
-/* Coding Journey Section */
+/* Coding Journey Section - With Images */
 .Coding-journey-section {
   max-width: 800px;
   margin: 4rem auto;
   padding: 0 2rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .Coding-journey-section .title {
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
   color: #2c3e50;
-  position: relative;
+  font-weight: 600;
 }
 
-.Coding-journey-section .title::after {
-  content: '';
-  display: block;
-  width: 100px;
-  height: 4px;
-  background: #386897;
-  margin: 1rem auto 0;
+.journey {
+  padding: 0 2rem 2rem;
 }
 
-.Coding-journey-section > div > div {
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #eee;
+.journey > div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.Coding-journey-section > div > div:last-child {
+.journey > div:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.Coding-journey-section h3 {
+.journey img {
+  width: 60px;
+  height: 60px;
+  margin-right: 1.5rem;
+  object-fit: contain;
+}
+
+.journey h3 {
   font-size: 1.5rem;
   color: #386897;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
-.Coding-journey-section h3::before {
-  content: '#';
-  color: #386897;
-  margin-right: 0.5rem;
-  font-weight: bold;
-}
-
-.Coding-journey-section img {
-  width: 50px;
-  height: 50px;
-  margin-right: 1rem;
-  vertical-align: middle;
-}
-
-.Coding-journey-section p {
+.journey p {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #555;
-  margin-left: 2.5rem;
-  position: relative;
-}
-
-.Coding-journey-section p::before {
-  content: '-';
-  position: absolute;
-  left: -1.5rem;
+  margin: 0;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .Coding-journey-section {
     padding: 0 1.5rem;
+    margin: 3rem auto;
+  }
+  
+  .journey {
+    padding: 0 1rem 1.5rem;
   }
   
   .Coding-journey-section .title {
     font-size: 2rem;
+    padding-top: 1.5rem;
   }
   
-  .Coding-journey-section h3 {
+  .journey > div {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .journey img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.2rem;
+  }
+  
+  .journey h3 {
     font-size: 1.3rem;
   }
   
-  .Coding-journey-section p {
+  .journey p {
     font-size: 1rem;
-    margin-left: 2rem;
   }
 }
 
 @media (max-width: 480px) {
-  .Coding-journey-section {
-    padding: 0 1rem;
+  .journey > div {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
   
-  .Coding-journey-section img {
-    width: 40px;
-    height: 40px;
-  }
-  
-  .Coding-journey-section p {
-    margin-left: 1.5rem;
+  .journey img {
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
 }
+
 /* Responsive Design */
 
 /*  Footer section */
