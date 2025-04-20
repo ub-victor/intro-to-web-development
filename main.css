@@ -96,3 +96,12 @@ nav li:hover::after {
   position: relative;
 }
 
+.hero-section h2 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
