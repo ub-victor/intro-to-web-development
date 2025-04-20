@@ -139,9 +139,10 @@ nav li:hover::after {
 
 /*coding journey section*/
 .Coding-journey-section {
-  max-width: 800px;
+  width: full-width;
   margin: 4rem auto;
   padding: 0 2rem;
+  background-color: #0066cc;
 }
 
 .Coding-journey-section .title {
