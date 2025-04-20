@@ -81,6 +81,8 @@ nav li:hover::after {
 
 /* Responsive design */
 
+/*Hero section*/
+
 .hero-section{
   background-image: url(images/hero.png);
 }
