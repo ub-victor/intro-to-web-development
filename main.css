@@ -137,20 +137,18 @@ nav li:hover::after {
 
 /* Responsive Design */
 
-/*coding journey section*/
+/* Coding Journey Section */
 .Coding-journey-section {
-  width: full-width;
-  margin: 0px auto;
+  max-width: 800px;
+  margin: 4rem auto;
   padding: 0 2rem;
-  background-color: #97aec5;
 }
 
 .Coding-journey-section .title {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 3rem;
-  padding-top: 2.5rem;
-  color: #fff;
+  color: #2c3e50;
   position: relative;
 }
 
@@ -169,6 +167,82 @@ nav li:hover::after {
   border-bottom: 1px solid #eee;
 }
 
+.Coding-journey-section > div > div:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.Coding-journey-section h3 {
+  font-size: 1.5rem;
+  color: #386897;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.Coding-journey-section h3::before {
+  content: '#';
+  color: #386897;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.Coding-journey-section img {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.Coding-journey-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-left: 2.5rem;
+  position: relative;
+}
+
+.Coding-journey-section p::before {
+  content: '-';
+  position: absolute;
+  left: -1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Coding-journey-section {
+    padding: 0 1.5rem;
+  }
+  
+  .Coding-journey-section .title {
+    font-size: 2rem;
+  }
+  
+  .Coding-journey-section h3 {
+    font-size: 1.3rem;
+  }
+  
+  .Coding-journey-section p {
+    font-size: 1rem;
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Coding-journey-section {
+    padding: 0 1rem;
+  }
+  
+  .Coding-journey-section img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .Coding-journey-section p {
+    margin-left: 1.5rem;
+  }
+}
 /* Responsive Design */
 
 /*  Footer section */
