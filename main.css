@@ -244,6 +244,12 @@ nav li:hover::after {
   letter-spacing: 0.5px;
 }
 
-
+.heart {
+  color: #ff6b6b;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  margin: 0 5px;
+  animation: heartbeat 1.5s infinite;
+}
 
 /* Responsive Design */
