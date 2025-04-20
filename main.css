@@ -160,7 +160,7 @@ nav li:hover::after {
 .journey-container {
   display: flex;
   justify-content: space-between;
-  gap: 70px;
+  gap: 100px;
 }
 
 /* Journey cards */
