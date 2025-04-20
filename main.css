@@ -198,7 +198,7 @@ nav li:hover::after {
 .journey-title {
   font-size: 1.5rem;
   margin-bottom: 20px;
-  color: #2c3e50;
+  color: rgb(17, 16, 16);
 }
 
 .journey-description {
