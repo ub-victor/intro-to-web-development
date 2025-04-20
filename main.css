@@ -165,7 +165,7 @@ nav li:hover::after {
 
 /* Journey cards */
 .journey-card {
-  flex: 1;
+  
   background: hsl(0, 0%, 100%);
   border-radius: 35px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
