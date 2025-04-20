@@ -144,7 +144,13 @@ nav li:hover::after {
   padding: 0 2rem;
 }
 
-
+.Coding-journey-section .title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+  position: relative;
+}
 
 /* Responsive Design */
 
