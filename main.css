@@ -223,9 +223,14 @@ nav li:hover::after {
       margin-bottom: 30px;
   }
 }
-
-/* Responsive Design */
-
 /*  Footer section */
+.website-footer {
+  background-color: #252c2c;
+  color: white;
+  padding: 25px 0;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
 
 /* Responsive Design */
