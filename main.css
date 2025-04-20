@@ -140,8 +140,10 @@ nav li:hover::after {
 /* Coding Journey Section*/
 .Coding-journey-section {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 1200px;
-  margin: 50px auto;
+  background-color:#4B8B8B;
+  height: 450px;
+  width: full-width;
+  margin: 0px auto;
   padding: 0 20px;
 }
 
