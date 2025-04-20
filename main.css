@@ -148,7 +148,7 @@ nav li:hover::after {
 .Coding-journey-section .title {
   font-size: 2.5rem;
   color:#fff;
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   padding-top: 2rem;
   position: relative;
