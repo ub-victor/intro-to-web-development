@@ -171,7 +171,8 @@ nav li:hover::after {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
   text-align: left;
-  /*transition: all 0.3s ease;*/
+  transition: all 0.3s ease;
+  /* border-top: 4px solid transparent; */
 }
 
 .journey-card:hover {
@@ -179,18 +180,12 @@ nav li:hover::after {
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Specific card colors */
+/* Specific card colors
 .intro {
   border-top-color: #3498db;
 }
+ */
 
-.react {
-  border-top-color: #61dafb;
-}
-
-.backend {
-  border-top-color: #2ecc71;
-}
 
 /* Card content styling */
 .journey-icon {
