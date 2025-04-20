@@ -189,8 +189,9 @@ nav li:hover::after {
 
 /* Card content styling */
 .journey-icon {
-  width: 80px;
-  height: 80px;
+  width: 350px;
+  height: 200px;
+  border-radius: 12px;
   margin-bottom: 25px;
 }
 
