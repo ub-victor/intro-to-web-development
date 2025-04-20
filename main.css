@@ -149,18 +149,18 @@ nav li:hover::after {
 
 .Coding-journey-section .title {
   text-align: center;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-bottom: 60px;
   padding-top: 2.5rem;
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 /* Journey container */
 .journey-container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 70px;
 }
 
 /* Journey cards */
@@ -170,7 +170,7 @@ nav li:hover::after {
   border-radius: 12px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
-  text-align: center;
+  text-align: left;
   transition: all 0.3s ease;
   border-top: 4px solid transparent;
 }
