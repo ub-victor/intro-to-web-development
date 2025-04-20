@@ -157,6 +157,30 @@ nav li:hover::after {
   gap: 3rem;
 }
 
+.Coding-journey-section .intro,
+.Coding-journey-section .react,
+.Coding-journey-section div > div:last-child {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Coding-journey-section .intro:hover,
+.Coding-journey-section .react:hover,
+.Coding-journey-section div > div:last-child:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.Coding-journey-section .intro:hover,
+.Coding-journey-section .react:hover,
+.Coding-journey-section div > div:last-child:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
 
 
 
