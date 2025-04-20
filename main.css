@@ -141,7 +141,7 @@ nav li:hover::after {
 .Coding-journey-section {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color:#4B8B8B;
-  height: 450px;
+  height: 650px;
   width: full-width;
   margin: 0px auto;
   padding: 0 100px;
@@ -166,8 +166,8 @@ nav li:hover::after {
 /* Journey cards */
 .journey-card {
   flex: 1;
-  background: #ffffff;
-  border-radius: 20px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 35px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   padding: 30px 25px;
   text-align: left;
