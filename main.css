@@ -97,6 +97,7 @@ nav li:hover::after {
 }
 
 .hero-section h2 {
+  color: black;
   font-size: 3.5rem;
   font-weight: 500;
   line-height: 1.2;
@@ -106,9 +107,30 @@ nav li:hover::after {
 }
 
 .hero-section p {
+  color: black;
   font-size: 1.8rem;
   font-weight: 100;
   margin-bottom: 2rem;
   position: relative;
   z-index: 2;
+}
+
+.hero-section button {
+  background-color: #386897;
+  color: white;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+}
+
+.hero-section button:hover {
+  background-color: #245280;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
