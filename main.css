@@ -20,7 +20,7 @@ header {
 }
 
 header div {
-  max-width: 1200px;
+  width: full-width;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,7 @@ header div {
 header img {
   height: 40px;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 header img:hover {
@@ -72,18 +73,6 @@ nav li::after {
 
 nav li:hover::after {
   width: 100%;
-}
-
-/* Page title */
-header::before {
-  content: "My Coding Journey";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2c3e50;
 }
 
 /* Responsive design */
