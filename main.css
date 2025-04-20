@@ -154,7 +154,20 @@ nav li:hover::after {
   position: relative;
 }
 
+.Coding-journey-section .title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #386897;
+  margin: 1rem auto 0;
+}
 
+.Coding-journey-section > div > div {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
 
 /* Responsive Design */
 
