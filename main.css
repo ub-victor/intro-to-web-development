@@ -137,7 +137,14 @@ nav li:hover::after {
 
 /* Responsive Design */
 
-/*oding journey section*/
+/*c   oding journey section*/
+.Coding-journey-section {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+
 
 
 /*  Footer section */
