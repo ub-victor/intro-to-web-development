@@ -172,7 +172,6 @@ nav li:hover::after {
   padding: 30px 25px;
   text-align: left;
   transition: all 0.3s ease;
-  border-top: 4px solid transparent;
 }
 
 .journey-card:hover {
