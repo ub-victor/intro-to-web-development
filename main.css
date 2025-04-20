@@ -105,3 +105,10 @@ nav li:hover::after {
   z-index: 2;
 }
 
+.hero-section p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
+}
