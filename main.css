@@ -226,6 +226,7 @@ nav li:hover::after {
   width: full-width;
   margin: 0px auto;
   padding: 0 100px;
+  padding-bottom: 50px;
 }
 
 .Coding-journey-section .title {
@@ -271,7 +272,8 @@ nav li:hover::after {
 
 /* Card content styling */
 .journey-icon {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 200px;
   border-radius: 12px;
   margin-bottom: 25px;
