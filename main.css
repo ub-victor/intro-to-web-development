@@ -137,6 +137,69 @@ nav li:hover::after {
 
 /* Responsive Design */
 
+/* About Me Section Styling */
+.about-me-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #4B8B8B;
+  margin: 15px auto 0;
+}
+
+.about-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-me-section {
+      padding: 60px 0;
+  }
+  
+  .section-title {
+      font-size: 2rem;
+  }
+  
+  .about-content {
+      padding: 30px 20px;
+  }
+  
+  .about-text {
+      font-size: 1rem;
+  }
+}
+
 /* Coding Journey Section*/
 .Coding-journey-section {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
