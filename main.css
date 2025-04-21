@@ -140,12 +140,12 @@ nav li:hover::after {
 /* About Me Section Styling */
 .about-me-section {
   background-color: #f8f9fa;
-  padding: 80px 0;
+  padding: 20px 0;
   font-family: 'Arial', sans-serif;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 0 20px;
 }
