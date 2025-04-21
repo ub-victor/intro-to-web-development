@@ -293,7 +293,86 @@ nav li:hover::after {
 }
 
 /* Responsive design */
+/* Tablet Styles (768px - 1023px) */
+@media (max-width: 1023px) {
+  .Coding-journey-section {
+    padding: 0 50px;
+    min-height: auto;
+  }
+  
+  .journey-container {
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .journey-card {
+    flex: 1 1 calc(50% - 50px);
+    min-width: 300px;
+  }
+  
+  .journey-icon {
+    height: 180px;
+  }
+  
+  .title {
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+  }
+}
 
+/* Mobile Styles (up to 767px) */
+@media (max-width: 767px) {
+  .Coding-journey-section {
+    padding: 0 20px;
+  }
+  
+  .journey-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .journey-card {
+    width: 100%;
+    flex: none;
+  }
+  
+  .journey-icon {
+    height: 160px;
+    margin: 0 auto 20px; /* Center images on mobile */
+    display: block;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    padding-top: 1.5rem;
+  }
+  
+  .journey-title {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .journey-description {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+/* Small Mobile Styles (up to 480px) */
+@media (max-width: 480px) {
+  .Coding-journey-section {
+    padding: 0 15px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  .journey-icon {
+    height: 140px;
+  }
+}
 
 /*  Footer section */
 .website-footer {
