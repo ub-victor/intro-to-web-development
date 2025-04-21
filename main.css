@@ -161,17 +161,16 @@ nav li:hover::after {
 .section-title::after {
   content: '';
   display: block;
-  width: 80px;
+  width: 230px;
   height: 4px;
   background-color: #4B8B8B;
-  margin: 15px auto 0;
+  margin: 10px auto 0;
 }
 
 .about-content {
   background-color: white;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  
 }
 
 .about-text {
