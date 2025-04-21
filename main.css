@@ -249,15 +249,37 @@ nav li:hover::after {
   font-size: 1.3rem;
   vertical-align: middle;
   margin: 0 5px;
+  /* Applies a heartbeat animation to the element, repeating infinitely every 1.5 seconds */
   animation: heartbeat 1.5s infinite;
 }
 
+/* Defines a keyframe animation named 'heartbeat' */
 @keyframes heartbeat {
-  0% { transform: scale(1); }
-  25% { transform: scale(1.1); }
-  50% { transform: scale(1); }
-  75% { transform: scale(1.1); }
-  100% { transform: scale(1); }
+  0% { 
+    transform: scale(1); /* At the start, the element is at its original size */
+  }
+  25% { 
+    transform: scale(1.1); /* Scales the element to 110% of its original size */
+  }
+  50% { 
+    transform: scale(1); /* Returns the element to its original size */
+  }
+  75% { 
+    transform: scale(1.1); /* Scales the element to 110% of its original size again */
+  }
+  100% { 
+    transform: scale(1); /* Ends the animation with the element at its original size */
+  }
 }
 
 /* Responsive Design */
+
+@media (max-width: 768px) {
+  .footer-text {
+      font-size: 1rem;
+  }
+  
+  .heart {
+      font-size: 1.1rem;
+  }
+}
