@@ -222,7 +222,7 @@ nav li:hover::after {
 .Coding-journey-section {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color:#4B8B8B;
-  height: 580px;
+  height: auto;
   width: full-width;
   margin: 0px auto;
   padding: 0 100px;
@@ -290,6 +290,7 @@ nav li:hover::after {
 }
 
 /* Responsive design */
+
 
 /*  Footer section */
 .website-footer {
