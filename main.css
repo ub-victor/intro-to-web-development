@@ -290,20 +290,7 @@ nav li:hover::after {
 }
 
 /* Responsive design */
-@media (max-width: 768px) {
-  .journey-container {
-      flex-direction: column;
-  }
-  
-  .Coding-journey-section .title {
-      font-size: 2.2rem;
-      margin-bottom: 40px;
-  }
-  
-  .journey-card {
-      margin-bottom: 30px;
-  }
-}
+
 /*  Footer section */
 .website-footer {
   background-color: #252c2c;
