@@ -275,6 +275,7 @@ nav li:hover::after {
   width: 100%;
   max-width: 400px;
   height: 200px;
+  object-fit: contain; /* Ensures images maintain aspect ratio */
   border-radius: 12px;
   margin-bottom: 25px;
 }
