@@ -226,7 +226,6 @@ nav li:hover::after {
   width: full-width;
   margin: 0px auto;
   padding: 0 100px;
-  padding-bottom: 50px;
 }
 
 .Coding-journey-section .title {
@@ -243,6 +242,7 @@ nav li:hover::after {
   display: flex;
   justify-content: space-between;
   gap: 100px;
+  padding-bottom: 50px;
 }
 
 /* Journey cards */
