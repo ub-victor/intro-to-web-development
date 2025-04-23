@@ -156,6 +156,10 @@ nav a:hover::after {
 
 /* Responsive Design */
 
+@media (max-width: 768px) {
+  
+}
+
 /* About Me Section Styling */
 .about-me-section {
   background-color: #f8f9fa;
