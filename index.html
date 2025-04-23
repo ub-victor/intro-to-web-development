@@ -5,6 +5,27 @@
   <meta charset="UTF-8" />
   <title>Learn - Get Started Today</title>
   <meta name="description" content="Learn is a platform that offers free courses for everyone. Start learning today!" />
+  <head>
+    <!-- Standard Favicons (Most Browsers) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    
+    <!-- Fallback for Old Browsers (IE, etc.) -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <!-- Apple Touch Icon (iOS/Safari) -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- Android/Chrome Icons (PWA) -->
+    <link rel="icon" type="image/png" sizes="192x192" href="images/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/android-chrome-512x512.png">
+    
+    <!-- Optional: Web Manifest (PWA) -->
+    <link rel="manifest" href="images/site.webmanifest">
+    
+    <!-- Optional: Chrome Theme Color -->
+    <meta name="theme-color" content="#ffffff">
+</head>
   <!-- CSS -->
   <link rel="stylesheet" href="main.css"/>
 </head>
@@ -16,9 +37,9 @@
       <a href="index.html"><img src="images/logo.png" alt="logo"></a>
       <nav>
         <ul>
-          <li id="About">Abount Me</li>
-          <li id="journey">Journey</li>
-          <li id="#goals">Goals</li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#journey">Journey</a></li>
+          <li><a href="#goals">Goals</a></li>
         </ul>
       </nav>
     </div>
@@ -29,11 +50,11 @@
     <div class="hero-section">
       <h2>Hello! <br/>I'm Victor Ushindi</h2>
       <p>A Web Developer</p>
-      <button>Contact Me</button>
+      <a href="mailto:victoireushindi371@gmail.co"><button>Contact Me</button></a>
     </div>
 
     <!-- About me section -->
-    <section class="about-me-section" id="#About">
+    <section class="about-me-section" id="about">
       <div class="container">
           <h1 class="section-title">About Me</h1>
           <div class="about-content">
@@ -85,7 +106,7 @@
   <footer class="website-footer">
     <!-- Footer section -->
     <div class="footer-content">
-        <p class="footer-text">Website Made by <span class="heart">Victor</span> From DRC</p>
+        <p class="footer-text">Website Made by <span class="heart">Victor</span> From DRC © <span id="current-year"></span></p>
     </div>
 </footer>
   <!-- JavaScript -->
