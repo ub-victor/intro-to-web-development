@@ -138,6 +138,7 @@ nav a:hover::after {
   background-color: #386897;
   color: white;
   padding: 0.8rem 2rem;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 1.1rem;
   font-weight: 500;
   border-radius: 10px;
@@ -157,7 +158,16 @@ nav a:hover::after {
 /* Responsive Design */
 
 @media (max-width: 768px) {
+  .hero-section h2 {
+    color: #f10202;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
   
+  .hero-section p {
+    color: #f10202;
+    font-weight: 900;
+  }
 }
 
 /* About Me Section Styling */
