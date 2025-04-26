@@ -16,4 +16,4 @@ function changeBackgroundColor(color) {
 
 document.querySelector(".intro").addEventListener('click', () => changeBackgroundColor("#2CA02C"));
 document.querySelector(".react").addEventListener('click', () => changeBackgroundColor("#FF7F0E"));
-document.querySelector(".backend").addEventListener('click', () => changeBackgroundColor("#9467BD"));
+document.querySelector(".backend").addEventListener('click', () => changeBackgroundColor("#9467BD")); 
